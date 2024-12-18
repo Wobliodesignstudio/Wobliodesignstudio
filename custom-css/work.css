@@ -1,0 +1,154 @@
+.work-page-description .left-description {
+    font-size: 20px;
+    font-family: albertSansFont;
+    opacity: 0.5;
+}
+
+.work-page-description .right-description {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.work-page-description .right-description .connect-button button {
+    background-color: #FFFFFF;
+    color: #343A40;
+    font-size: 20px;
+    border: 1px solid #343A40;
+}
+
+.work-page-description .description {
+    font-size: 63px;
+    font-family: anuphanFont;
+}
+
+.work-page-description .sub-description {
+    font-size: 20px;
+    font-family: albertSansFont;
+}
+
+.case-studies-description {
+    margin-bottom: 10rem;
+}
+
+.case-studies-description .case-row {
+    overflow-x: scroll;
+    display: flex;
+    gap: 3rem;
+}
+
+.case-studies-description .case-data {
+    width: 40rem;
+}
+
+.case-studies-description .case-data img {
+    width: 40rem;
+}
+
+.case-studies-description .case-data .row {
+    margin-top: 1rem;
+}
+
+.case-studies-description .work-title {
+    font-size: 48px;
+    font-family: anuphanFont;
+}
+
+.case-studies-description .project-name {
+    font-size: 32px;
+    font-family: anuphanFont;
+}
+
+.case-studies-description .project-type {
+    font-size: 20px;
+    opacity: 0.5;
+    font-family: albertSansFont;
+}
+
+.case-studies-description .project-supportive-line {
+    font-size: 20px;
+    font-family: albertSansFont;
+}
+
+.designer-journey {
+    background-color: #212529;
+    color: #ffffff;
+    margin-bottom: 9rem;
+}
+
+.designer-journey .design-text {
+    font-size: 32px;
+}
+
+.designer-journey .design-description {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.designer-journey .designer-journey-button {
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #343A40;
+    border: none;
+}
+
+.service-card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    margin: 4rem 0;
+}
+
+@media (max-width: 1100px) {
+    .service-card-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 1101px) {
+    .service-card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.service-card-container .service-card {
+    padding: 3.2rem;
+    border: 1px solid #D9D9D9;
+}
+
+.service-card-container .service-card:hover {
+    color: #fff;
+    background-color: #212529;
+}
+
+.service-card-container .service-card .service-card-title {
+    font-size: 32px;
+    font-family: anuphanFont;
+    margin-bottom: 1rem;
+}
+
+.service-card-container .service-card .service-card-description {
+    font-size: 24px;
+    font-family: albertSansFont;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+}
+
+.service-card-container .service-card .tags span {
+    font-size: 20px;
+    font-family: albertSansFont;
+    background-color: #212529;
+    color: white;
+    padding: 0.6rem 1rem;
+}
+
+.service-card-container .service-card:hover .tags span {
+    background-color: #444;
+    color: white;
+}
+
+.service-card-container .service-card .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}

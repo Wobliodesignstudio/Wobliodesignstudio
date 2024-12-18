@@ -1,0 +1,85 @@
+.work-page-description .left-description {
+    font-size: 20px;
+    font-family: albertSansFont;
+    opacity: 0.5;
+}
+
+.work-page-description .right-description {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.work-page-description .right-description .connect-button button {
+    background-color: #FFFFFF;
+    color: #343A40;
+    font-size: 20px;
+    border: 1px solid #343A40;
+}
+
+.work-page-description .description {
+    font-size: 63px;
+    font-family: anuphanFont;
+}
+
+.work-page-description .sub-description {
+    font-size: 20px;
+    font-family: albertSansFont;
+}
+
+.work-description {
+    margin-bottom: 10rem;
+}
+
+.work-description .work-title {
+    font-size: 48px;
+    font-family: anuphanFont;
+}
+
+.work-description .project-name {
+    font-size: 32px;
+    font-family: anuphanFont;
+}
+
+.work-description .project-type {
+    font-size: 20px;
+    opacity: 0.5;
+    font-family: albertSansFont;
+}
+
+.work-description .project-img:hover {
+    overflow: hidden;
+    -webkit-transform: scale(.95) !important;
+    -ms-transform: scale(.95) !important;
+    transform: scale(.95) !important;
+    transition: transform .4s;
+}
+
+.work-description .project-img:hover img {
+    -webkit-transform: translate(0, 0) scale(1.08) !important;
+    -ms-transform: translate(0, 0) scale(1.08) !important;
+    transform: translate(0, 0) scale(1.08) !important;
+    transition: transform .4s;
+}
+
+.designer-journey {
+    background-color: #212529;
+    color: #ffffff;
+    margin-bottom: 9rem;
+}
+
+.designer-journey .design-text {
+    font-size: 32px;
+}
+
+.designer-journey .design-description {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.designer-journey .designer-journey-button {
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #343A40;
+    border: none;
+}

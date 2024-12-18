@@ -1,0 +1,161 @@
+.home-page-description .left-description {
+    font-size: 20px;
+    font-family: albertSansFont;
+    opacity: 0.5;
+}
+
+.home-page-description .right-description {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.home-page-description .right-description .connect-button button {
+    background-color: #343A40;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+}
+
+.home-page-description .description {
+    font-size: 63px;
+    font-family: anuphanFont;
+}
+
+.home-page-description .sub-description {
+    font-size: 20px;
+    font-family: albertSansFont;
+}
+
+.mountain-image {
+    margin-top: 7rem;
+    margin-bottom: 10rem;
+}
+
+.work-description {
+    margin-bottom: 10rem;
+}
+
+.work-description .work-title {
+    font-size: 48px;
+    font-family: anuphanFont;
+}
+
+.work-description .project-img:hover {
+    overflow: hidden;
+    -webkit-transform: scale(.95) !important;
+    -ms-transform: scale(.95) !important;
+    transform: scale(.95) !important;
+    transition: transform .4s;
+}
+
+.work-description .project-img:hover img {
+    -webkit-transform: translate(0, 0) scale(1.08) !important;
+    -ms-transform: translate(0, 0) scale(1.08) !important;
+    transform: translate(0, 0) scale(1.08) !important;
+    transition: transform .4s;
+}
+
+.work-description .project-name {
+    font-size: 32px;
+    font-family: anuphanFont;
+}
+
+.work-description .project-type {
+    font-size: 20px;
+    opacity: 0.5;
+    font-family: albertSansFont;
+}
+
+.designer-journey {
+    background-color: #212529;
+    color: #ffffff;
+    margin-bottom: 9rem;
+}
+
+.designer-journey .design-text {
+    font-size: 32px;
+}
+
+.designer-journey .design-description {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.designer-journey .designer-journey-button {
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #343A40;
+    border: none;
+}
+
+.what-do-we-do {
+    margin-bottom: 12rem;
+}
+
+.what-do-we-do .what-do-we-do-title {
+    font-family: anuphanFont;
+    font-size: 48px;
+}
+
+.what-do-we-do .service {
+    margin: 3.5rem 0;
+}
+
+.what-do-we-do .service .service-content .service-title {
+    font-size: 32px;
+    font-family: anuphanFont;
+    margin-bottom: 0.5rem;
+}
+
+.what-do-we-do .service .service-content .service-description {
+    font-size: 24px;
+    font-family: albertSansFont;
+    opacity: 0.8;
+}
+
+.what-do-we-do .service .service-content .service-number {
+    font-size: 20px;
+    margin: 0.6rem 1rem 0 0;
+    font-family: albertSansFont;
+}
+
+.what-do-we-do .service .service-view-button {
+    font-size: 20px;
+    height: 40px;
+    font-family: albertSansFont;
+    border: 1px solid #343A40;
+}
+
+.what-do-we-do .service .service-view-button {
+    background-color: white;
+    color: #343A40;
+    font-size: 20px;
+    max-width: fit-content;
+}
+
+.client-review {
+    background-color: #F8F9FA;
+    padding: 7rem 2rem;
+}
+
+.client-review .client-review-title {
+    font-family: anuphanFont;
+    font-size: 40px;
+    margin-bottom: 3rem;
+}
+
+.client-review .client-review-data .client-info .client-name {
+    font-family: anuphanFont;
+    font-size: 32px;
+}
+
+.client-review .client-review-data .client-info .client-organization {
+    font-size: 20px;
+    opacity: 0.5;
+    font-family: albertSansFont;
+}
+
+.client-review .client-review-data .client-review-description {
+    opacity: 0.5;
+}

@@ -1,0 +1,99 @@
+@font-face {
+    font-family: albertSansFont;
+    src: url(../font/Albert_Sans/AlbertSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: anuphanFont;
+    src: url(../font/Anuphan/Anuphan-VariableFont_wght.ttf);
+}
+
+.albertSansFont {
+    font-family: albertSansFont;
+}
+
+.anuphanFont {
+    font-family: anuphanFont;
+}
+
+.m-l-r {
+    margin: 0 3rem;
+}
+
+.header-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.header-component .header-navigation a{
+    text-decoration: none;
+    color: #343A40;
+}
+
+.footer-component {
+    margin-bottom: 7rem;
+}
+
+.footer-component .footer-left-side .footer-left {
+    font-size: 48px;
+}
+
+.footer-component .footer-right-side {
+    font-family: albertSansFont;
+}
+
+.footer-component .footer-right-side span {
+    margin-bottom: 1rem;
+}
+
+.footer-component .footer-right-side a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+    width: max-content;
+}
+
+/* font size css */
+
+.f-100 {
+    font-weight: 100;
+}
+
+.f-200 {
+    font-weight: 200;
+}
+
+.f-300 {
+    font-weight: 300;
+}
+
+.f-400 {
+    font-weight: 400;
+}
+
+.f-500 {
+    font-weight: 500;
+}
+
+.f-600 {
+    font-weight: 600;
+}
+
+.f-700 {
+    font-weight: 700;
+}
+
+.f-800 {
+    font-weight: 800;
+}
+
+.f-900 {
+    font-weight: 900;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
