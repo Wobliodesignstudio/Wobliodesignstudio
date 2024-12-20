@@ -15,7 +15,7 @@ class Header extends HTMLElement {
             <div class="row">
                 <div class="col-12 col-xl-6 col-lg-6 col-md-12" style="width: fit-content;">
                     <span class="header-navigation">
-                        <a href="../case-study/">
+                        <a href="../case-study/case-study.html">
                             <img src="../images/down-right-arrow-black.svg" />
                             Work
                         </a>
@@ -23,7 +23,7 @@ class Header extends HTMLElement {
                 </div>
                 <div class="col-12 col-xl-6 col-lg-6 col-md-12" style="width: fit-content;">
                     <span class="header-navigation">
-                        <a href="../work/">
+                        <a href="../work/work.html">
                             <img src="../images/down-right-arrow-black.svg" />
                             What we do
                         </a>
