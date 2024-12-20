@@ -1,4 +1,4 @@
-class Header extends HTMLElement {
+class Footer extends HTMLElement {
   constructor() {
     super();
   }
@@ -34,28 +34,32 @@ class Header extends HTMLElement {
                     <div class="d-flex flex-column">
                         <span>Services</span>
                         <span>
-                            <a>UX/UI Design</a>
+                            <a href="../work/work.html">Product Design</a>
                         </span>
                         <span>
-                            <a>Graphic Design</a>
+                            <a href="../work/work.html">UX Design</a>
                         </span>
                         <span>
-                            <a>For MVP Projects</a>
+                            <a href="../work/work.html">UI Design</a>
                         </span>
                         <span>
-                            <a>For Enterprise Projects</a>
+                            <a href="../work/work.html">Wireframing & Prototyping</a>
+                        </span>
+                        <span>
+                            <a href="../work/work.html">Brand design</a>
                         </span>
                     </div>
                 </div>
                 <div class="col-12 col-xl-5">
                     <div class="d-flex flex-column">
+                    <span>Contact</span>
                         <a href="tel:+919173877067">
                             <img src="../images/down-right-arrow-black.svg" height="20px" />
                             +91 91738 77067
                         </a>
-                        <a href="https://mail.google.com/mail/?view=cm&to=pavanchavda27@gmail.com&su=Hello&body=I%20would%20like%20to%20know%20more">
+                        <a href="https://mail.google.com/mail/?view=cm&to=pavan@woblio.com&su=Hello&body=I%20would%20like%20to%20know%20more">
                             <img src="../images/down-right-arrow-black.svg" height="20px" />
-                            pavanchavda27@gmail.com
+                            pavan@woblio.com
                         </a>
                     </div>
                 </div>
@@ -66,4 +70,4 @@ class Header extends HTMLElement {
   }
 }
 
-customElements.define("header-component", Header);
+customElements.define("footer-component", Footer);

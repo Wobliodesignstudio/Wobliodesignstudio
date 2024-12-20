@@ -70,28 +70,6 @@
     font-family: albertSansFont;
 }
 
-.designer-journey {
-    background-color: #212529;
-    color: #ffffff;
-    margin-bottom: 9rem;
-}
-
-.designer-journey .design-text {
-    font-size: 32px;
-}
-
-.designer-journey .design-description {
-    font-size: 20px;
-    opacity: 0.5;
-}
-
-.designer-journey .designer-journey-button {
-    font-size: 20px;
-    background-color: #ffffff;
-    color: #343A40;
-    border: none;
-}
-
 .service-card-container {
     display: grid;
     grid-template-columns: 1fr;

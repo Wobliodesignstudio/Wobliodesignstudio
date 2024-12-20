@@ -67,28 +67,6 @@
     font-family: albertSansFont;
 }
 
-.designer-journey {
-    background-color: #212529;
-    color: #ffffff;
-    margin-bottom: 9rem;
-}
-
-.designer-journey .design-text {
-    font-size: 32px;
-}
-
-.designer-journey .design-description {
-    font-size: 20px;
-    opacity: 0.5;
-}
-
-.designer-journey .designer-journey-button {
-    font-size: 20px;
-    background-color: #ffffff;
-    color: #343A40;
-    border: none;
-}
-
 .what-do-we-do {
     margin-bottom: 12rem;
 }
@@ -121,13 +99,12 @@
 }
 
 .what-do-we-do .service .service-view-button {
+    text-decoration: none;
+    padding-top: 0.3rem;
     font-size: 20px;
     height: 40px;
     font-family: albertSansFont;
     border: 1px solid #343A40;
-}
-
-.what-do-we-do .service .service-view-button {
     background-color: white;
     color: #343A40;
     font-size: 20px;

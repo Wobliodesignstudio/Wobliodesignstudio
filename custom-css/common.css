@@ -21,16 +21,23 @@
 }
 
 .header-component {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     margin: 20px 0;
     font-size: 20px;
 }
 
-.header-component .header-navigation a{
+.header-component .header-navigation a {
     text-decoration: none;
     color: #343A40;
+}
+
+.header-component .contact-button {
+    font-family: albertSansFont;
+    border: 1px solid #343A40;
+    background-color: white;
+    color: #343A40;
+    max-width: fit-content;
+    padding: 0.5rem;
 }
 
 .footer-component {
@@ -54,6 +61,50 @@
     color: black;
     opacity: 0.6;
     width: max-content;
+}
+
+.designer-journey {
+    background-color: #212529;
+    color: #ffffff;
+    margin-bottom: 9rem;
+}
+
+.designer-journey .design-text {
+    font-size: 32px;
+}
+
+.designer-journey .design-description {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.designer-journey .designer-journey-button {
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #343A40;
+    border: none;
+}
+
+.connect-button-white, .connect-button-white a {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #343A40;
+    font-size: 20px;
+    border: 1px solid #343A40;
+    padding: 0.4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.connect-button-black, .connect-button-black a {
+    text-decoration: none;
+    background-color: #343A40;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    padding: 0.4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 /* font size css */

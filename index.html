@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./header-component/header-component.js"></script>
+    <script src="./footer-component/footer-component.js"></script>
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./custom-css/home-page.css">
     <link rel="stylesheet" href="./custom-css/common.css">
@@ -13,25 +14,7 @@
 </head>
 
 <body class="m-l-r">
-    <!-- <div class="header-component f-300">
-        <div class="d-flex">
-            <span>
-                <img src="../images/down-right-arrow-black.svg" />
-                Work
-            </span>
-            <span>
-                <img src="../images/down-right-arrow-black.svg" />
-                What we do
-            </span>
-        </div>
-        <div>
-            <img src="../images/thumbnail.svg" height="48" />
-        </div>
-        <span>
-            <img src="../images/down-right-arrow-black.svg" />
-            Contact
-        </span>
-    </div> -->
+
     <header-component></header-component>
 
     <hr />
@@ -51,11 +34,14 @@
                     captivate, engage, and leave a lasting impact.
                 </span>
             </div>
-            <div class="connect-button">
-                <button class="f-300">
-                    <img src="../images/down-right-arrow-white.svg" height="20px" />
-                    <span>Let’s Connect</span>
-                </button>
+            <div class="connect-button-black">
+                <span class="header-navigation contact-button f-300">
+                    <a
+                        href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__k6uye5UQzVBTjhJSVNPVURPS0c1WUpBNlNOOEpMQS4u" target="_blank">
+                        <img src="../images/down-right-arrow-white.svg" />
+                        Let’s Connect
+                    </a>
+                </span>
             </div>
         </div>
     </div>
@@ -65,10 +51,16 @@
     </div>
 
     <div class="work-description">
-        <div class="f-400 work-title mb-5">
+        <div class="f-400 work-title mb-5 d-flex justify-content-between align-items-center">
             <span>
                 Work
             </span>
+            <div class="f-300 connect-button-white">
+                <a href="./work/work.html">
+                    <img src="../images/down-right-arrow-black.svg" height="20px" />
+                    <span>View All</span>
+                </a>
+            </div>
         </div>
         <div class="row mt-5">
             <div class="col-md-5 col-sm-12">
@@ -144,10 +136,13 @@
                 </div>
             </div>
             <div class="col text-end align-content-center">
-                <button class="f-300 designer-journey-button">
-                    <img src="../images/down-right-arrow-black.svg" height="20px" />
-                    <span>Start Your Design Journey</span>
-                </button>
+                <span class="f-300 connect-button-white">
+                    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__k6uye5UQzVBTjhJSVNPVURPS0c1WUpBNlNOOEpMQS4u"
+                        target="_blank">
+                        <img src="../images/down-right-arrow-black.svg" />
+                        Start Your Design Journey
+                    </a>
+                </span>
             </div>
         </div>
     </div>
@@ -172,10 +167,10 @@
                     </div>
                 </div>
             </div>
-            <button class="col-12 col-md-2 ms-5 f-300 service-view-button">
+            <a href="./work/work.html" class="col-12 col-md-2 ms-5 f-300 service-view-button">
                 <img src="../images/down-right-arrow-black.svg" height="20px" />
                 <span>View</span>
-            </button>
+            </a>
         </div>
         <hr>
         <div class="row service d-flex justify-content-between">
@@ -194,10 +189,10 @@
                     </div>
                 </div>
             </div>
-            <button class="col-12 col-md-2 ms-5 f-300 service-view-button">
+            <a href="./work/work.html" class="col-12 col-md-2 ms-5 f-300 service-view-button">
                 <img src="../images/down-right-arrow-black.svg" height="20px" />
                 <span>View</span>
-            </button>
+            </a>
         </div>
         <hr>
         <div class="row service d-flex justify-content-between">
@@ -217,10 +212,10 @@
                     </div>
                 </div>
             </div>
-            <button class="col-12 col-md-2 ms-5 f-300 service-view-button">
+            <a href="./work/work.html" class="col-12 col-md-2 ms-5 f-300 service-view-button">
                 <img src="../images/down-right-arrow-black.svg" height="20px" />
                 <span>View</span>
-            </button>
+            </a>
         </div>
         <hr>
         <div class="row service d-flex justify-content-between">
@@ -239,10 +234,10 @@
                     </div>
                 </div>
             </div>
-            <button class="col-12 col-md-2 ms-5 f-300 service-view-button">
+            <a href="./work/work.html" class="col-12 col-md-2 ms-5 f-300 service-view-button">
                 <img src="../images/down-right-arrow-black.svg" height="20px" />
                 <span>View</span>
-            </button>
+            </a>
         </div>
         <hr>
         <div class="row service d-flex justify-content-between">
@@ -261,14 +256,14 @@
                     </div>
                 </div>
             </div>
-            <button class="col-12 col-md-2 ms-5 f-300 service-view-button">
+            <a href="./work/work.html" class="col-12 col-md-2 ms-5 f-300 service-view-button">
                 <img src="../images/down-right-arrow-black.svg" height="20px" />
                 <span>View</span>
-            </button>
+            </a>
         </div>
     </div>
 
-    <div class="client-review">
+    <!-- <div class="client-review">
         <div>
             <div class="f-400 client-review-title">
                 Words from our clients
@@ -348,7 +343,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="designer-journey p-5 mt-5">
         <div class="row">
@@ -365,74 +360,21 @@
                 </div>
             </div>
             <div class="col text-end align-content-center">
-                <button class="f-300 designer-journey-button">
-                    <img src="../images/down-right-arrow-black.svg" height="20px" />
-                    <span>Let’s Connect</span>
-                </button>
+                <span class="f-300 connect-button-white">
+                    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__k6uye5UQzVBTjhJSVNPVURPS0c1WUpBNlNOOEpMQS4u"
+                        target="_blank">
+                        <img src="../images/down-right-arrow-black.svg" />
+                        Let’s Connect
+                    </a>
+                </span>
             </div>
         </div>
     </div>
 
     <hr />
 
-    <div class="row footer-component mt-5">
-        <div class="col-12 col-sm-6 col-lg-6 f-400 footer-left-side d-flex flex-column justify-content-between">
-            <div>
-                <img src="../images/thumbnail.svg" height="40" />
-            </div>
-            <div class="footer-left">
-                Let’s Collaborate!
-            </div>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-6 f-400 footer-right-side">
-            <div class="row">
-                <div class="col-12 col-xl-3">
-                    <div class="d-flex flex-column">
-                        <span>Pages</span>
-                        <span>
-                            <a href="/index.html"> Home</a>
-                        </span>
-                        <span>
-                            <a href="../case-study/case-study.html"> Work</a>
-                        </span>
-                        <span>
-                            <a href="../work/work.html"> What we do</a>
-                        </span>
-                    </div>
-                </div>
-                <div class="col-12 col-xl-4">
-                    <div class="d-flex flex-column">
-                        <span>Services</span>
-                        <span>
-                            <a>UX/UI Design</a>
-                        </span>
-                        <span>
-                            <a>Graphic Design</a>
-                        </span>
-                        <span>
-                            <a>For MVP Projects</a>
-                        </span>
-                        <span>
-                            <a>For Enterprise Projects</a>
-                        </span>
-                    </div>
-                </div>
-                <div class="col-12 col-xl-5">
-                    <div class="d-flex flex-column">
-                        <a href="tel:+919173877067">
-                            <img src="../images/down-right-arrow-black.svg" height="20px" />
-                            +91 91738 77067
-                        </a>
-                        <a
-                            href="https://mail.google.com/mail/?view=cm&to=pavanchavda27@gmail.com&su=Hello&body=I%20would%20like%20to%20know%20more">
-                            <img src="../images/down-right-arrow-black.svg" height="20px" />
-                            pavanchavda27@gmail.com
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <footer-component></footer-component>
+
 </body>
 
 </html>
