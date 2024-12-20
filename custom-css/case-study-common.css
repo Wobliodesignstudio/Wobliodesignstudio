@@ -53,6 +53,8 @@ img {
 /* Position the image container (needed to position the left and right arrows) */
 .container {
     position: relative;
+    width: 85%;
+    padding: 0 !important;
 }
 
 /* Hide the images by default */
@@ -65,33 +67,63 @@ img {
     cursor: pointer;
 }
 
+.img-gallery {
+    position: relative;
+}
+
 /* Next & previous buttons */
+.gallery-prev,
 .prev,
+.gallery-next,
 .next {
+    padding: 0;
+    height: 40px !important;
+    width: 40px !important;
     cursor: pointer;
     position: absolute;
     top: 40%;
     width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
+    margin-top: -10px;
+    color: #343A40;
     font-weight: bold;
     font-size: 20px;
-    border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
+.gallery-next,
 .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
+    height: 40px;
+    margin-right: -60px;
+    border: 1px solid #343A40;
+}
+
+.gallery-next img,
+.next img {
+    height: 40px;
+}
+
+.gallery-prev,
+.prev {
+    margin-left: -60px;
+    border: 1px solid #343A40;
+}
+
+.gallery-prev img,
+.prev img {
+    height: 40px;
+    transform: rotate(180deg);
 }
 
 /* On hover, add a black background color with a little bit see-through */
+.gallery-prev,
 .prev:hover,
+.gallery-next,
 .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    /* background-color: rgba(0, 0, 0, 0.8); */
 }
 
 

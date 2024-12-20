@@ -262,14 +262,21 @@
                     <img src="../images/turing-health-5.png" style="width:100%">
                 </div>
 
-                <a class="prev" onclick="plusSlides(-1)">❮</a>
-                <a class="next" onclick="plusSlides(1)">❯</a>
+                <a class="prev" onclick="plusSlides(-1)">
+                    <img src="../images/right-side-carousel.png" />
+                </a>
+                <a class="next" onclick="plusSlides(1)">
+                    <img src="../images/right-side-carousel.png" />
+                </a>
 
                 <div class="caption-container">
                     <p id="caption"></p>
                 </div>
 
-                <div class="row">
+                <div class="row img-gallery">
+                    <a class="gallery-prev" onclick="plusSlides(-1)">
+                        <img src="../images/right-side-carousel.png" />
+                    </a>
                     <div class="column">
                         <img class="demo cursor" src="../images/turing-health-1.png" style="width:100%"
                             onclick="currentSlide(1)">
@@ -290,6 +297,9 @@
                         <img class="demo cursor" src="../images/turing-health-5.png" style="width:100%"
                             onclick="currentSlide(5)">
                     </div>
+                    <a class="gallery-next" onclick="plusSlides(1)">
+                        <img src="../images/right-side-carousel.png" />
+                    </a>
                 </div>
             </div>
 
@@ -323,46 +333,6 @@
                     captionText.innerHTML = dots[slideIndex - 1].alt;
                 }
             </script>
-            <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../images/voice-of-tanuku.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../images/ul-search.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../images/digi-health-care.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-indicators">
-                    <button type="button" style="height: 100px; width: 100px;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"><img src="../images/voice-of-tanuku.png" class="d-block w-100" alt="..."></button>
-                    <button type="button" style="height: 100px; width: 100px;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"><img src="../images/voice-of-tanuku.png" class="d-block w-100" alt="..."></button>
-                    <button type="button" style="height: 100px; width: 100px;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"><img src="../images/voice-of-tanuku.png" class="d-block w-100" alt="..."></button>
-                </div>
-            </div>
-        </div> -->
         </div>
 
         <hr />
