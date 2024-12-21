@@ -59,6 +59,17 @@
     object-position: center;
 }
 
+.digihealthcare-website-img-container {
+    display: flex;
+    overflow-x: scroll;
+    gap: 3rem;
+}
+
+.digihealthcare-website-img-container .digihealthcare-img, 
+.digihealthcare-website-img-container .digihealthcare-img img{
+    width: 45rem;
+}
+
 /* carousel */
 
 img {
