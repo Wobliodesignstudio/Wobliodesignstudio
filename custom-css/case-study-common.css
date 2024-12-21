@@ -24,7 +24,8 @@
     opacity: 0.5;
 }
 
-.right-side-data .description-data, .unordered-list {
+.right-side-data .description-data,
+.unordered-list {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -42,6 +43,10 @@
     font-weight: 700;
     font-size: 18px !important;
     color: #6C757D;
+}
+
+.case-study-top-img {
+    height: 28rem;
 }
 
 /* carousel */
