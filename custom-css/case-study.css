@@ -39,12 +39,17 @@
 .work-description .project-name {
     font-size: 32px;
     font-family: anuphanFont;
+    color: #212529;
+}
+
+.case-study-redirection-link a{
+    text-decoration: none;
 }
 
 .work-description .project-type {
     font-size: 20px;
-    opacity: 0.5;
     font-family: albertSansFont;
+    color: #6C757D;
 }
 
 .work-description .project-img:hover {

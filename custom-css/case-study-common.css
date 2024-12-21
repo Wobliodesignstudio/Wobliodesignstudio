@@ -24,7 +24,7 @@
     opacity: 0.5;
 }
 
-.right-side-data .description-data {
+.right-side-data .description-data, .unordered-list {
     display: flex;
     flex-direction: column;
     gap: 24px;
